@@ -1,0 +1,60 @@
+.container {
+  padding-top: 70px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff; 
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+}
+
+.navbar-item {
+  flex: 1;
+  text-align: center;
+}
+
+.homepage {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* giữ nguyên kích thước của input bằng cách chỉ định box-sizing */
+}
+
+.post {
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.post h2 {
+  color: #007bff;
+}
+
+.post h3 {
+  color: #28a745;
+}
+
+.post p {
+  color: #333;
+}
+
+.post ul {
+  margin-top: 10px;
+}
+
+.post ul li {
+  color: #6c757d;
+}
